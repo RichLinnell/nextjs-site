@@ -1,5 +1,8 @@
 ## Next.js  - Starter
 
-This is the starter Next.js project (A Client Change) - used to get to understand what Next.js brings me in comparison to base React.js.
+This is the starter Next.js project - used to get to understand what Next.js brings me in comparison to base React.js.
 
-I'm going to push this branch - then see if I can raise an MR
+This project also integrates with Vercel.
+
+# Change Process
+Proposed changes should be made on separate branches, then merged to main via MRs in GitHub.
