@@ -12,7 +12,7 @@ export default async function Page({
   searchParams?: { query?: string; page?: string };
 }) {
     const query = searchParams?.query || '';
-    const currentPage = searchParams?.page || 1;
+    const currentPage = parseInt(searchParams?.page || "1");
   return (
     <div className="w-full">
       <div className="flex w-full items-center justify-between">
